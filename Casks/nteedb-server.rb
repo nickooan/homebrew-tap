@@ -3,17 +3,17 @@ cask "nteedb-server" do
   version "0.5.0"
 
   on_macos do
-    sha256 "abbd784c9e29fcda512e57a4887b6231916ad233085d6be154df1597987740aa"
+    sha256 "9f5d4b9a2a3a4a72fa369dcfd47c150b6f3baa701624f2b1b6a2f8f176248ccd"
     url "https://github.com/nickooan/ntee-db/releases/download/v#{version}/nteedb-server_#{version}_darwin_all.tar.gz"
   end
 
   on_linux do
     on_intel do
-      sha256 "e02b3ef006a2dc152b5e717a3d2beac012da277b2f551552f4d5b9b3bdd1cac0"
+      sha256 "d1ace7a154f29660d9a90060e9f8e4f445665e60baa3fa836c26b899dda93b89"
       url "https://github.com/nickooan/ntee-db/releases/download/v#{version}/nteedb-server_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1a21ab0d69fb5b92507043a2af0363860db6b688dbbbebf4f55a7bbfd368f2a5"
+      sha256 "21f6f22e9af822716580024fe45bdc1afa0d6cf0ed4181813bdb8863dc19dc9d"
       url "https://github.com/nickooan/ntee-db/releases/download/v#{version}/nteedb-server_#{version}_linux_arm64.tar.gz"
     end
   end
